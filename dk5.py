@@ -34,28 +34,28 @@ import requests.packages.urllib3.exceptions as urllib3_exceptions
 #print ("")
 #print ("Loading libraries..")
 #================================================================================================================================================================================================================================================================================================
-cl = LINE("Ez5EReBuMDCPxsQjkDi0.9zI9ZmDniCXQhxeP0qoIua.J3CrJKR9pPHxEf6ldtaNvvfvxxn6o0MH5ryzFvo9+Qk=")
+cl = LINE("EFfGnuHqlPtuCn0EYO54.AI/sqK1rPfDta4o3nrhLba.gYvLYc7ynDYlTKWbEfnbSuagQYy43ecbcbNgg3GaddY=")
 cl.log("Auth Token : " + str(cl.authToken))
 
-ki = LINE("EyqFOL5Dt70CgjOOjroc.k7Ed1+IN8nsu2Zev/G2m7a.2Nz3irokdZFOPoWBaObvKDEic4vs5NwGN55uy6H8SKI=")
+ki = LINE("EFfCS7S1YihkXXE8dmb8.V9fPQ4Ni715zhNxzTDLx/a.pSG+jRZC6PPtMz+uaym1dB6ZoRzHsNa5GLVSGKRmx88=")
 ki.log("Auth Token : " + str(ki.authToken))
 
-kk = LINE("Eys64ZnKt9FtcUnNmfJ6.L1x712veeuIBABIHjmlgDG.lhbZo7TWKviBa/roCXHl47nzCg7kP2fp4CJvf2vudYk=")
+kk = LINE("EFbajDaQJjOfrYXuR7X4./Coef04cSd1Ymaih+V2ADa.0IdAS5BpnGYWnYYmd8OKJiS3skciKXxo4n5OmJ+ygBs=")
 kk.log("Auth Token : " + str(kk.authToken))
 
-kc = LINE("EywZw0gTDfCHE0CRTgh1.wJwBZBz9bF6SgOGWbLowiq.r+RkJnZvITzXMJC1EbW+FSjGJPRqxRulpZ2ag77Ox6Y=")
+kc = LINE("EFgr7yU0c5jCrXhyO7i8.FPNfS/tWhjxbbnczp8qzMa.AE/dc5qS6JeIC0NaABAIUQ9HXzycMrw8ZVr9PxiMHxo=")
 kc.log("Auth Token : " + str(kc.authToken))
 
-sw = LINE("EyEnaYKbk4sCuftkaUee.6dSr+6+gd60kqb1cSIYH+G.wBummvNwPvQhB6RmIUHS/z7TKcBhN8C6XiXXiDTzsjw=")
+sw = LINE("EF6GlKasL8x1TMi7rTXe.3cAxcr7qxHraojb5FPmKlG.DdHokM1SJYd7MNkRNDb9GKB0OKSI/xyYPjZCxaKy09E=")
 sw.log("Auth Token : " + str(sw.authToken))
 
 
 poll = OEPoll(cl)
 #call = Call(cl)
-creator = ["uf598bdccc74d21cc6a1d7129d103a250"]
-owner = ["uf598bdccc74d21cc6a1d7129d103a250"]
-admin = ["uf598bdccc74d21cc6a1d7129d103a250"]
-staff = ["uf598bdccc74d21cc6a1d7129d103a250"]
+creator = ["u6a2f92424d51a457530383b73511e504"]
+owner = ["u6a2f92424d51a457530383b73511e504"]
+admin = ["u6a2f92424d51a457530383b73511e504"]
+staff = ["u6a2f92424d51a457530383b73511e504"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
